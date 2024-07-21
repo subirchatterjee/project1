@@ -12,7 +12,7 @@ pipeline {
         stage('MavenPackage') {
             steps {
                    
-                sh './mvnw package'
+                sh 'mvn package'
 
             }
         }
